@@ -1,0 +1,24 @@
+body {
+  font-family: arial, Verdana, sans-serif;
+  color: rgb(153, 14, 199);
+  background-image: url(https://img.freepik.com/free-vector/watercolor-sugar-cotton-clouds-background_23-2149226365.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+a {
+  color: rgb(88, 35, 138);
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.fixed {
+  position: fixed;
+  top: 15px;
+  right: 150px;
+  width: 300px;
+}
+.absolute {
+  position: absolute;
+}
