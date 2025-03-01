@@ -1,21 +1,147 @@
 body {
-  font-family: arial, Verdana, sans-serif;
-  color: rgb(153, 14, 199);
-  background-image: url(https://img.freepik.com/free-vector/watercolor-sugar-cotton-clouds-background_23-2149226365.jpg);
+  font-family: arial, Verdana, sans-serif, Georgia;
+  color: white;
+  background-image: url(https://img.freepik.com/premium-photo/abstract-blur-background-modern-bright-wallpaper-with-colorful-gradient-color_558873-3650.jpg);
   background-repeat: repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-}
-a {
-  color: rgb(88, 35, 138);
-  opacity: 0.7;
-  text-decoration: none;
+  align-items: center;
+  text-shadow: 1px 1px 15px azure;
 }
 
-.fixed {
-  position: fixed;
-  top: 15px;
-  right: 150px;
-  width: 300px;
+.sticky {
+  background-image: url(https://media.istockphoto.com/id/536507269/photo/night-sky-with-bright-stars-and-blue-nebula.jpg?s=612x612&w=0&k=20&c=GyiSGEZ-zAD7SHrhTrlpanoCVpIH2MhLjVHXJ8huWC4=);
+
+  color: white;
+  font-size: 30px;
+  position: sticky;
+  padding: 30px;
+  text-align: center;
+  border-width: 10px;
+  border-style: ridge;
+  border-color: rgb(156, 154, 136);
+  box-shadow: 0px 0px 20px rgba(16, 8, 69, 0.992);
+}
+
+h1:hover {
+  color: azure;
+  text-shadow: 0px 0px 30px rgb(237, 243, 128);
+  border-radius: 15px;
+  font-size: 70px;
+}
+#list:hover {
+  font-size: 28px;
+  color: rgb(187, 49, 49);
+  text-shadow: 0px 0px 15px rgb(93, 0, 0);
+}
+p:hover {
+  color: rgb(231, 209, 250);
+  text-shadow: 0px 0px 20px rgb(239, 97, 209);
+  font-size: 17px;
+}
+dt:hover {
+  font-size: 35px;
+  color: thistle;
+}
+dd:hover {
+  font-size: 25px;
+  color: thistle;
+}
+label:hover {
+  font-size: 30px;
+  color: rgb(243, 205, 238);
+  background-color: rgba(144, 161, 193, 0.764);
+  text-shadow: 1px 1px 15px #1c1242;
+}
+dt {
+  font-size: 28px;
+  font-family: "Cochin";
+  font-style: italic;
+}
+dd {
+  font-size: 20px;
+  font-family: "Cochin";
+  margin-top: 5px;
+  font-style: italic;
+}
+
+a {
+  font-size: 14px;
+  color: rgb(247, 247, 226);
+  text-shadow: 0px 0px 15px #162348;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.special-div {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.special-div p {
+  font-size: 17px;
+  color: lavender;
+}
+
+.absolute #a1 {
+  display: flex;
+  position: absolute;
+  margin: auto;
+  float: left;
+}
+.sticky {
+  margin-bottom: 40px;
+}
+
+label {
+  background-color: rgba(151, 219, 206, 0.36);
+  text-shadow: 1px 1px 15px azure;
+  font-size: 28px;
+  margin: auto;
+  padding: 2px;
+  border-radius: 5px;
+}
+#main {
+  background-color: #f4d5f296;
+  display: block;
+  text-align: center;
+  font-size: 35px;
+}
+#main:hover {
+  font-size: 40px;
+  color: #f7c3cc;
+  background-color: rgb(68, 107, 142);
+  text-shadow: 0px 0px 15px whitesmoke;
+}
+blockquote {
+  font-family: "perpetua";
+  color: snow;
+  text-shadow: 1px 1px 15px rgb(237, 90, 115);
+  font-size: 22px;
+  text-align: center;
+}
+blockquote footer {
+  font-size: 17px;
+  color: lightgray;
+}
+.quote:hover {
+  font-size: 40x;
+}
+
+#op {
+  background-color: rgba(230, 172, 206, 0.813);
+  padding: 10px;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.first {
+  opacity: 0.1;
+}
+.second {
+  opacity: 0.3;
+}
+.third {
+  opacity: 0.7;
 }
